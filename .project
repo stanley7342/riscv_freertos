@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>RISCV_FreeRTOS</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>FREERTOS_ROOT</name>
+			<value>$%7BPARENT-3-PROJECT_LOC%7D</value>
+		</variable>
+		<variable>
+			<name>FREERTOS_ROOT1</name>
+			<value>$%7BFREERTOS_ROOT%7D/stanley/Downloads/riscv_toolchains/FreeRTOSv10.2.1</value>
+		</variable>
+		<variable>
+			<name>FREERTOS_ROOT11</name>
+			<value>$%7BFREERTOS_ROOT1%7D/stanley/Downloads/riscv_toolchains/FreeRTOSv10.2.1</value>
+		</variable>
+		<variable>
+			<name>FREERTOS_ROOT111</name>
+			<value>$%7BFREERTOS_ROOT11%7D/stanley/Downloads/riscv_toolchains/FreeRTOSv10.2.1</value>
+		</variable>
+	</variableList>
+</projectDescription>
